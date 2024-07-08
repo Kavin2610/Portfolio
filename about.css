@@ -84,7 +84,7 @@ p{
 }
 
 .tech-stack {
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .tech-stack h2 {
@@ -121,4 +121,59 @@ p{
 
 .tools img{
     width: 100px;
+}
+.container {
+    display: flex;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 900px;
+    width: 90%;
+    text-align: center;
+}
+.tools {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+    text-align: center;
+    background: #f4f4f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.tools img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.tools p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.tools:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tech-stack h2{
+    display: flex;
+    justify-content: center;
+    color: #007bff;
+}
+.tools h1{
+    display: flex;
+    justify-content: center;
+}
+.description{
+    display: block;
+    margin-left: 30px;
+    padding: 20px;
 }

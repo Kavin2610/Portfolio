@@ -18,10 +18,12 @@
 .project-info {
     background-color: white ;
     padding: 15px;
+    
 }
 
 .project-info h3 {
     margin-top: 0;
+    color: #00bff0;
 }
 
 .btn {
