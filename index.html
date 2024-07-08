@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <script src="script.js"></script>
     <link rel= "stylesheet" href = "styles.css">
 </head>
 <body>
@@ -14,12 +15,29 @@
             <li><a href="certificate.html">Certificates</a></li>
             <li><a href="about.html">About Me</a></li>
             <li><a href="contact.html">Contact Me</a></li>
-            <li><a href="Projects.html">Projects</a></li>
+            <li><a href="project.html">Projects</a></li>
             </ul>
         </navbar>
     </div>
     <!-- div below closes the gradient color wrapper-->
-    
+    <div class="content">
+        <div class="profile">
+            <img src="./images/profile.png" width="300" height="300">
+        </div>
+        <h3>Hello Visitor👋🏻 </h3>
+        <h2>Kavin Rajendran</h2>
+        <h3>Full Stack Developer</h3>
+        <button class="btn-btn-color-2"
+        onclick="window.open('./assets/resume.pdf')">Download CV</button>
+        <button class="btn" onclick="contact_page()">Contact </button>
+        <div class="Social"><a href="https://www.linkedin.com/in/kavin-rajendran2610/" target="_blank">
+            <img src="./images/linkedin.png" width= "50px">
+        </a>
+        <a href="https://github.com/Kavin2610" target="_blank">
+            <img src="./images/github.png" width="50px">
+        </a>
+        </div>
+    </div>
     
 </body>
 </html>
