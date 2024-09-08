@@ -61,3 +61,31 @@ h4 {
   border-radius: 10px;
   transition: background-color 0.3s ease;
 }
+
+.navbar{
+    margin: 5px;
+    font-family: "Poppins", sans-serif;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: whitesmoke;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    justify-content: space-around;
+    overflow: hidden;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 15px;
+}
+.navbar a:hover{
+    background-color: #1ddde8;
+}
+.navbar li{
+    float: left
+    
+}
